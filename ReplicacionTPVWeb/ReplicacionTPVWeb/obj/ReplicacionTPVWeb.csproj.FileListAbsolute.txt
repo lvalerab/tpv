@@ -1,0 +1,21 @@
+C:\Users\lfvalera\Documents\Visual Studio 2005\Projects\ReplicacionTPVWeb\ReplicacionTPVWeb\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\lfvalera\Documents\Visual Studio 2005\Projects\ReplicacionTPVWeb\ReplicacionTPVWeb\obj\Debug\ReplicacionTPVWeb.csproj.GenerateResource.Cache
+C:\Users\lfvalera\Documents\Visual Studio 2005\Projects\ReplicacionTPVWeb\ReplicacionTPVWeb\bin\Debug\ReplicacionTPVWeb.exe
+C:\Users\lfvalera\Documents\Visual Studio 2005\Projects\ReplicacionTPVWeb\ReplicacionTPVWeb\bin\Debug\ReplicacionTPVWeb.pdb
+C:\Users\lfvalera\Documents\Visual Studio 2005\Projects\ReplicacionTPVWeb\ReplicacionTPVWeb\obj\Debug\ReplicacionTPVWeb.EstadoHilo.resources
+C:\Users\lfvalera\Documents\Visual Studio 2005\Projects\ReplicacionTPVWeb\ReplicacionTPVWeb\obj\Debug\ReplicacionTPVWeb.exe
+C:\Users\lfvalera\Documents\Visual Studio 2005\Projects\ReplicacionTPVWeb\ReplicacionTPVWeb\obj\Debug\ReplicacionTPVWeb.pdb
+C:\DESARROLLO\NuevoTPV\ReplicacionTPVWeb\ReplicacionTPVWeb\obj\Release\ResolveAssemblyReference.cache
+C:\DESARROLLO\NuevoTPV\ReplicacionTPVWeb\ReplicacionTPVWeb\obj\Release\ReplicacionTPVWeb.csproj.GenerateResource.Cache
+C:\DESARROLLO\NuevoTPV\ReplicacionTPVWeb\ReplicacionTPVWeb\bin\Release\ReplicacionTPVWeb.exe
+C:\DESARROLLO\NuevoTPV\ReplicacionTPVWeb\ReplicacionTPVWeb\bin\Release\ReplicacionTPVWeb.pdb
+C:\DESARROLLO\NuevoTPV\ReplicacionTPVWeb\ReplicacionTPVWeb\bin\Release\CLSBASE.dll
+C:\DESARROLLO\NuevoTPV\ReplicacionTPVWeb\ReplicacionTPVWeb\bin\Release\CLSBASE.pdb
+C:\DESARROLLO\NuevoTPV\ReplicacionTPVWeb\ReplicacionTPVWeb\bin\Release\CLSBASE.xml
+C:\DESARROLLO\NuevoTPV\ReplicacionTPVWeb\ReplicacionTPVWeb\obj\Release\ReplicacionTPVWeb.exe
+C:\DESARROLLO\NuevoTPV\ReplicacionTPVWeb\ReplicacionTPVWeb\obj\Release\ReplicacionTPVWeb.pdb
+C:\DESARROLLO\NuevoTPV\ReplicacionTPVWeb\ReplicacionTPVWeb\bin\Release\MySql.Data.dll
+C:\DESARROLLO\NuevoTPV\ReplicacionTPVWeb\ReplicacionTPVWeb\obj\Release\ReplicacionTPVWeb.ReplicacionTPVWeb.resources
+C:\DESARROLLO\NuevoTPV\ReplicacionTPVWeb\ReplicacionTPVWeb\bin\Release\FtpLibrary.dll
+C:\DESARROLLO\NuevoTPV\ReplicacionTPVWeb\ReplicacionTPVWeb\bin\Release\FtpLibrary.pdb
+C:\DESARROLLO\NuevoTPV\ReplicacionTPVWeb\ReplicacionTPVWeb\bin\Release\FtpLibrary.xml

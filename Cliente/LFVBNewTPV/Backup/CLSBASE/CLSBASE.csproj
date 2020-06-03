@@ -1,0 +1,78 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C8ABCA30-C4AB-4317-9C7A-B047C489B6E0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CLSBASE</RootNamespace>
+    <AssemblyName>CLSBASE</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <DocumentationFile>bin\Release\CLSBASE.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.1.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CONTROL\CAJAS\Caja.cs" />
+    <Compile Include="CONTROL\CAJAS\Cajas.cs" />
+    <Compile Include="CRM\DOCUMENTOS\Documento.cs" />
+    <Compile Include="CRM\DOCUMENTOS\Documentos.cs" />
+    <Compile Include="CRM\DOCUMENTOS\TipoDocumentos.cs" />
+    <Compile Include="CRM\PERSONAS\Persona.cs" />
+    <Compile Include="CRM\PERSONAS\Personas.cs" />
+    <Compile Include="CRM\PERSONAS\TipoPersonas.cs" />
+    <Compile Include="CRM\PRODUCTOS\Familia.cs" />
+    <Compile Include="CRM\PRODUCTOS\IVA.cs" />
+    <Compile Include="CRM\PRODUCTOS\Producto.cs" />
+    <Compile Include="CRM\PRODUCTOS\Productos.cs" />
+    <Compile Include="CRM\PRODUCTOS\Subfamilias.cs" />
+    <Compile Include="CRM\RESERVAS\EstadoReservas.cs" />
+    <Compile Include="CRM\RESERVAS\Reserva.cs" />
+    <Compile Include="CRM\RESERVAS\Reservas.cs" />
+    <Compile Include="Elemento.cs" />
+    <Compile Include="IGlobal.cs" />
+    <Compile Include="INTERFACES\IElemento.cs" />
+    <Compile Include="INTERFACES\IElementos.cs" />
+    <Compile Include="INTERFACES\IMaestro.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SISTEMA\USUARIOS\Usuario.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

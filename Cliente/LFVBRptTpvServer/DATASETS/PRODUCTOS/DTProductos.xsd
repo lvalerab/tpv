@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DTProductos" targetNamespace="http://tempuri.org/DTProductos.xsd" xmlns:mstns="http://tempuri.org/DTProductos.xsd" xmlns="http://tempuri.org/DTProductos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DTProductos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DTProductos" msprop:Generator_DataSetName="DTProductos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="FAMI_FAMILIAS" msprop:Generator_UserTableName="FAMI_FAMILIAS" msprop:Generator_RowDeletedName="FAMI_FAMILIASRowDeleted" msprop:Generator_RowChangedName="FAMI_FAMILIASRowChanged" msprop:Generator_RowClassName="FAMI_FAMILIASRow" msprop:Generator_RowChangingName="FAMI_FAMILIASRowChanging" msprop:Generator_RowEvArgName="FAMI_FAMILIASRowChangeEvent" msprop:Generator_RowEvHandlerName="FAMI_FAMILIASRowChangeEventHandler" msprop:Generator_TableClassName="FAMI_FAMILIASDataTable" msprop:Generator_TableVarName="tableFAMI_FAMILIAS" msprop:Generator_RowDeletingName="FAMI_FAMILIASRowDeleting" msprop:Generator_TablePropName="FAMI_FAMILIAS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="COD_FAMI" msprop:Generator_UserColumnName="COD_FAMI" msprop:Generator_ColumnVarNameInTable="columnCOD_FAMI" msprop:Generator_ColumnPropNameInRow="COD_FAMI" msprop:Generator_ColumnPropNameInTable="COD_FAMIColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NOMBRE_FAMI" msprop:Generator_UserColumnName="NOMBRE_FAMI" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_FAMI" msprop:Generator_ColumnPropNameInRow="NOMBRE_FAMI" msprop:Generator_ColumnPropNameInTable="NOMBRE_FAMIColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SUFA_SUB_FAMILIAS" msprop:Generator_UserTableName="SUFA_SUB_FAMILIAS" msprop:Generator_RowDeletedName="SUFA_SUB_FAMILIASRowDeleted" msprop:Generator_RowChangedName="SUFA_SUB_FAMILIASRowChanged" msprop:Generator_RowClassName="SUFA_SUB_FAMILIASRow" msprop:Generator_RowChangingName="SUFA_SUB_FAMILIASRowChanging" msprop:Generator_RowEvArgName="SUFA_SUB_FAMILIASRowChangeEvent" msprop:Generator_RowEvHandlerName="SUFA_SUB_FAMILIASRowChangeEventHandler" msprop:Generator_TableClassName="SUFA_SUB_FAMILIASDataTable" msprop:Generator_TableVarName="tableSUFA_SUB_FAMILIAS" msprop:Generator_RowDeletingName="SUFA_SUB_FAMILIASRowDeleting" msprop:Generator_TablePropName="SUFA_SUB_FAMILIAS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="COD_SUFA" msprop:Generator_UserColumnName="COD_SUFA" msprop:Generator_ColumnVarNameInTable="columnCOD_SUFA" msprop:Generator_ColumnPropNameInRow="COD_SUFA" msprop:Generator_ColumnPropNameInTable="COD_SUFAColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="COD_FAMI" msprop:Generator_UserColumnName="COD_FAMI" msprop:Generator_ColumnVarNameInTable="columnCOD_FAMI" msprop:Generator_ColumnPropNameInRow="COD_FAMI" msprop:Generator_ColumnPropNameInTable="COD_FAMIColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NOMBRE_SUFA" msprop:Generator_UserColumnName="NOMBRE_SUFA" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_SUFA" msprop:Generator_ColumnPropNameInRow="NOMBRE_SUFA" msprop:Generator_ColumnPropNameInTable="NOMBRE_SUFAColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PROD_PRODUCTOS" msprop:Generator_UserTableName="PROD_PRODUCTOS" msprop:Generator_RowDeletedName="PROD_PRODUCTOSRowDeleted" msprop:Generator_RowChangedName="PROD_PRODUCTOSRowChanged" msprop:Generator_RowClassName="PROD_PRODUCTOSRow" msprop:Generator_RowChangingName="PROD_PRODUCTOSRowChanging" msprop:Generator_RowEvArgName="PROD_PRODUCTOSRowChangeEvent" msprop:Generator_RowEvHandlerName="PROD_PRODUCTOSRowChangeEventHandler" msprop:Generator_TableClassName="PROD_PRODUCTOSDataTable" msprop:Generator_TableVarName="tablePROD_PRODUCTOS" msprop:Generator_RowDeletingName="PROD_PRODUCTOSRowDeleting" msprop:Generator_TablePropName="PROD_PRODUCTOS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_ELEM" msprop:Generator_UserColumnName="ID_ELEM" msprop:Generator_ColumnVarNameInTable="columnID_ELEM" msprop:Generator_ColumnPropNameInRow="ID_ELEM" msprop:Generator_ColumnPropNameInTable="ID_ELEMColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="COD_SUFA" msprop:Generator_UserColumnName="COD_SUFA" msprop:Generator_ColumnVarNameInTable="columnCOD_SUFA" msprop:Generator_ColumnPropNameInRow="COD_SUFA" msprop:Generator_ColumnPropNameInTable="COD_SUFAColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="COD_FAMI" msprop:Generator_UserColumnName="COD_FAMI" msprop:Generator_ColumnVarNameInTable="columnCOD_FAMI" msprop:Generator_ColumnPropNameInRow="COD_FAMI" msprop:Generator_ColumnPropNameInTable="COD_FAMIColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="COD_BARRAS" msprop:Generator_UserColumnName="COD_BARRAS" msprop:Generator_ColumnVarNameInTable="columnCOD_BARRAS" msprop:Generator_ColumnPropNameInRow="COD_BARRAS" msprop:Generator_ColumnPropNameInTable="COD_BARRASColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NOMBRE_PROD" msprop:Generator_UserColumnName="NOMBRE_PROD" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_PROD" msprop:Generator_ColumnPropNameInRow="NOMBRE_PROD" msprop:Generator_ColumnPropNameInTable="NOMBRE_PRODColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EXISTENCIAS_PROD" msprop:Generator_UserColumnName="EXISTENCIAS_PROD" msprop:Generator_ColumnVarNameInTable="columnEXISTENCIAS_PROD" msprop:Generator_ColumnPropNameInRow="EXISTENCIAS_PROD" msprop:Generator_ColumnPropNameInTable="EXISTENCIAS_PRODColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PVB_PROD" msprop:Generator_UserColumnName="PVB_PROD" msprop:Generator_ColumnVarNameInTable="columnPVB_PROD" msprop:Generator_ColumnPropNameInRow="PVB_PROD" msprop:Generator_ColumnPropNameInTable="PVB_PRODColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IVA_PROD" msprop:Generator_UserColumnName="IVA_PROD" msprop:Generator_ColumnVarNameInTable="columnIVA_PROD" msprop:Generator_ColumnPropNameInRow="IVA_PROD" msprop:Generator_ColumnPropNameInTable="IVA_PRODColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PVP_PROD" msprop:Generator_UserColumnName="PVP_PROD" msprop:Generator_ColumnVarNameInTable="columnPVP_PROD" msprop:Generator_ColumnPropNameInRow="PVP_PROD" msprop:Generator_ColumnPropNameInTable="PVP_PRODColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ESTV_ESTA_VENTAS" msprop:Generator_UserTableName="ESTV_ESTA_VENTAS" msprop:Generator_RowDeletedName="ESTV_ESTA_VENTASRowDeleted" msprop:Generator_RowChangedName="ESTV_ESTA_VENTASRowChanged" msprop:Generator_RowClassName="ESTV_ESTA_VENTASRow" msprop:Generator_RowChangingName="ESTV_ESTA_VENTASRowChanging" msprop:Generator_RowEvArgName="ESTV_ESTA_VENTASRowChangeEvent" msprop:Generator_RowEvHandlerName="ESTV_ESTA_VENTASRowChangeEventHandler" msprop:Generator_TableClassName="ESTV_ESTA_VENTASDataTable" msprop:Generator_TableVarName="tableESTV_ESTA_VENTAS" msprop:Generator_RowDeletingName="ESTV_ESTA_VENTASRowDeleting" msprop:Generator_TablePropName="ESTV_ESTA_VENTAS">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_ELEM" msprop:Generator_UserColumnName="ID_ELEM" msprop:Generator_ColumnVarNameInTable="columnID_ELEM" msprop:Generator_ColumnPropNameInRow="ID_ELEM" msprop:Generator_ColumnPropNameInTable="ID_ELEMColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="TIPO_DOC" msprop:Generator_UserColumnName="TIPO_DOC" msprop:Generator_ColumnVarNameInTable="columnTIPO_DOC" msprop:Generator_ColumnPropNameInRow="TIPO_DOC" msprop:Generator_ColumnPropNameInTable="TIPO_DOCColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ANO_DOC" msprop:Generator_UserColumnName="ANO_DOC" msprop:Generator_ColumnVarNameInTable="columnANO_DOC" msprop:Generator_ColumnPropNameInRow="ANO_DOC" msprop:Generator_ColumnPropNameInTable="ANO_DOCColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CANTIDAD_DOC" msprop:Generator_UserColumnName="CANTIDAD_DOC" msprop:Generator_ColumnVarNameInTable="columnCANTIDAD_DOC" msprop:Generator_ColumnPropNameInRow="CANTIDAD_DOC" msprop:Generator_ColumnPropNameInTable="CANTIDAD_DOCColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ESTR_ESTA_RESERVA" msprop:Generator_UserTableName="ESTR_ESTA_RESERVA" msprop:Generator_RowDeletedName="ESTR_ESTA_RESERVARowDeleted" msprop:Generator_RowChangedName="ESTR_ESTA_RESERVARowChanged" msprop:Generator_RowClassName="ESTR_ESTA_RESERVARow" msprop:Generator_RowChangingName="ESTR_ESTA_RESERVARowChanging" msprop:Generator_RowEvArgName="ESTR_ESTA_RESERVARowChangeEvent" msprop:Generator_RowEvHandlerName="ESTR_ESTA_RESERVARowChangeEventHandler" msprop:Generator_TableClassName="ESTR_ESTA_RESERVADataTable" msprop:Generator_TableVarName="tableESTR_ESTA_RESERVA" msprop:Generator_RowDeletingName="ESTR_ESTA_RESERVARowDeleting" msprop:Generator_TablePropName="ESTR_ESTA_RESERVA">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_ELEM" msprop:Generator_UserColumnName="ID_ELEM" msprop:Generator_ColumnVarNameInTable="columnID_ELEM" msprop:Generator_ColumnPropNameInRow="ID_ELEM" msprop:Generator_ColumnPropNameInTable="ID_ELEMColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="ANO_DOC" msprop:Generator_UserColumnName="ANO_DOC" msprop:Generator_ColumnVarNameInTable="columnANO_DOC" msprop:Generator_ColumnPropNameInRow="ANO_DOC" msprop:Generator_ColumnPropNameInTable="ANO_DOCColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CANTIDAD_DOC" msprop:Generator_UserColumnName="CANTIDAD_DOC" msprop:Generator_ColumnVarNameInTable="columnCANTIDAD_DOC" msprop:Generator_ColumnPropNameInRow="CANTIDAD_DOC" msprop:Generator_ColumnPropNameInTable="CANTIDAD_DOCColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="FAMI_FAMILIASKey1">
+      <xs:selector xpath=".//mstns:FAMI_FAMILIAS" />
+      <xs:field xpath="mstns:COD_FAMI" />
+    </xs:unique>
+    <xs:unique name="SUFA_SUB_FAMILIASKey1">
+      <xs:selector xpath=".//mstns:SUFA_SUB_FAMILIAS" />
+      <xs:field xpath="mstns:COD_SUFA" />
+      <xs:field xpath="mstns:COD_FAMI" />
+    </xs:unique>
+    <xs:unique name="PROD_PRODUCTOSKey1">
+      <xs:selector xpath=".//mstns:PROD_PRODUCTOS" />
+      <xs:field xpath="mstns:ID_ELEM" />
+    </xs:unique>
+    <xs:unique name="ESTV_ESTA_VENTASKey1">
+      <xs:selector xpath=".//mstns:ESTV_ESTA_VENTAS" />
+      <xs:field xpath="mstns:ID_ELEM" />
+      <xs:field xpath="mstns:TIPO_DOC" />
+      <xs:field xpath="mstns:ANO_DOC" />
+    </xs:unique>
+    <xs:unique name="ESTR_ESTA_RESERVAKey1">
+      <xs:selector xpath=".//mstns:ESTR_ESTA_RESERVA" />
+      <xs:field xpath="mstns:ID_ELEM" />
+      <xs:field xpath="mstns:ANO_DOC" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="FAMI_FAMILIAS_SUFA_SUB_FAMILIAS" msdata:parent="FAMI_FAMILIAS" msdata:child="SUFA_SUB_FAMILIAS" msdata:parentkey="COD_FAMI" msdata:childkey="COD_FAMI" msprop:Generator_UserRelationName="FAMI_FAMILIAS_SUFA_SUB_FAMILIAS" msprop:Generator_RelationVarName="relationFAMI_FAMILIAS_SUFA_SUB_FAMILIAS" msprop:Generator_UserChildTable="SUFA_SUB_FAMILIAS" msprop:Generator_UserParentTable="FAMI_FAMILIAS" msprop:Generator_ParentPropName="FAMI_FAMILIASRow" msprop:Generator_ChildPropName="GetSUFA_SUB_FAMILIASRows" />
+      <msdata:Relationship name="SUFA_SUB_FAMILIAS_PROD_PRODUCTOS" msdata:parent="SUFA_SUB_FAMILIAS" msdata:child="PROD_PRODUCTOS" msdata:parentkey="COD_SUFA COD_FAMI" msdata:childkey="COD_SUFA COD_FAMI" msprop:Generator_UserRelationName="SUFA_SUB_FAMILIAS_PROD_PRODUCTOS" msprop:Generator_RelationVarName="relationSUFA_SUB_FAMILIAS_PROD_PRODUCTOS" msprop:Generator_UserChildTable="PROD_PRODUCTOS" msprop:Generator_UserParentTable="SUFA_SUB_FAMILIAS" msprop:Generator_ParentPropName="SUFA_SUB_FAMILIASRowParent" msprop:Generator_ChildPropName="GetPROD_PRODUCTOSRows" />
+      <msdata:Relationship name="PROD_PRODUCTOS_ESTV_ESTA_VENTAS" msdata:parent="PROD_PRODUCTOS" msdata:child="ESTV_ESTA_VENTAS" msdata:parentkey="ID_ELEM" msdata:childkey="ID_ELEM" msprop:Generator_UserRelationName="PROD_PRODUCTOS_ESTV_ESTA_VENTAS" msprop:Generator_RelationVarName="relationPROD_PRODUCTOS_ESTV_ESTA_VENTAS" msprop:Generator_UserChildTable="ESTV_ESTA_VENTAS" msprop:Generator_UserParentTable="PROD_PRODUCTOS" msprop:Generator_ParentPropName="PROD_PRODUCTOSRow" msprop:Generator_ChildPropName="GetESTV_ESTA_VENTASRows" />
+      <msdata:Relationship name="PROD_PRODUCTOS_ESTR_ESTA_RESERVA" msdata:parent="PROD_PRODUCTOS" msdata:child="ESTR_ESTA_RESERVA" msdata:parentkey="ID_ELEM" msdata:childkey="ID_ELEM" msprop:Generator_UserRelationName="PROD_PRODUCTOS_ESTR_ESTA_RESERVA" msprop:Generator_RelationVarName="relationPROD_PRODUCTOS_ESTR_ESTA_RESERVA" msprop:Generator_UserChildTable="ESTR_ESTA_RESERVA" msprop:Generator_UserParentTable="PROD_PRODUCTOS" msprop:Generator_ParentPropName="PROD_PRODUCTOSRow" msprop:Generator_ChildPropName="GetESTR_ESTA_RESERVARows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

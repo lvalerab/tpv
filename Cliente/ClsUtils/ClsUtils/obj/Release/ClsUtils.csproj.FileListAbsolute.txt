@@ -1,0 +1,10 @@
+C:\DESARROLLO\NuevoTPV2012\Cliente\ClsUtils\ClsUtils\bin\Release\ClsUtils.XML
+C:\DESARROLLO\NuevoTPV2012\Cliente\ClsUtils\ClsUtils\bin\Release\ClsUtils.dll
+C:\DESARROLLO\NuevoTPV2012\Cliente\ClsUtils\ClsUtils\bin\Release\ClsUtils.pdb
+C:\DESARROLLO\NuevoTPV2012\Cliente\ClsUtils\ClsUtils\bin\Release\CLSBASE.dll
+C:\DESARROLLO\NuevoTPV2012\Cliente\ClsUtils\ClsUtils\bin\Release\MySql.Data.dll
+C:\DESARROLLO\NuevoTPV2012\Cliente\ClsUtils\ClsUtils\bin\Release\CLSBASE.pdb
+C:\DESARROLLO\NuevoTPV2012\Cliente\ClsUtils\ClsUtils\bin\Release\CLSBASE.xml
+C:\DESARROLLO\NuevoTPV2012\Cliente\ClsUtils\ClsUtils\obj\Release\ClsUtils.csprojResolveAssemblyReference.cache
+C:\DESARROLLO\NuevoTPV2012\Cliente\ClsUtils\ClsUtils\obj\Release\ClsUtils.dll
+C:\DESARROLLO\NuevoTPV2012\Cliente\ClsUtils\ClsUtils\obj\Release\ClsUtils.pdb

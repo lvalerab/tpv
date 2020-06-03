@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CTGRIDBASE</name>
+    </assembly>
+    <members>
+        <member name="F:CTGRIDBASE.GRID.UTILS.frmBusqueda.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:CTGRIDBASE.GRID.UTILS.frmBusqueda.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:CTGRIDBASE.GRID.UTILS.frmBusqueda.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="T:CTGRIDBASE.GRID.COLUMNAS.DataGridViewChartCell">
+            <summary>
+            Clase que almacena una celda que representa en un diagrama de bloque un valor númerico
+            </summary>
+        </member>
+        <member name="P:CTGRIDBASE.GRID.COLUMNAS.DataGridViewNumericColumn.MarcarNegativos">
+            <summary>
+            Obtiene o establece si se marcarán los valores negativos en la columna
+            </summary>
+        </member>
+        <member name="P:CTGRIDBASE.GRID.COLUMNAS.DataGridViewNumericColumn.ColorNegativos">
+            <summary>
+            Obtiene o establece el color de marcado de los valores negativos.
+            </summary>
+        </member>
+        <member name="P:CTGRIDBASE.GRID.COLUMNAS.DataGridViewNumericColumn.MarcarPositivos">
+            <summary>
+            Obtiene o establece si se marcarán los valores positivos en la columna
+            </summary>
+        </member>
+        <member name="P:CTGRIDBASE.GRID.COLUMNAS.DataGridViewNumericColumn.ColorPositivos">
+            <summary>
+            Obtiene o establece el color de marcado de los valores positivos.
+            </summary>
+        </member>
+        <member name="T:CTGRIDBASE.GRID.DataGridViewBase">
+            <summary>
+            Clase base para implementar mayor funcionalidad al DataGridView    
+            </summary>
+        </member>
+        <member name="M:CTGRIDBASE.GRID.DataGridViewBase.ReestablecerFiltros">
+            <summary>
+            Función que permite reestablecer el DataTable original en el DataSource.
+            Nota: Si se desea trabajar con el datasource del objeto, usar:
+            para poder recuperar los datos, sin ninguna perdida
+            Nota: No hace falta si usa la propiedad Origen de Datos, dicha propiedad, mantiene siempre el origen de datos integro.
+            </summary>
+            <example>
+                (DataTable)[ObjetoGrid].DataSource
+            </example>        
+        </member>
+        <member name="E:CTGRIDBASE.GRID.DataGridViewBase.CuandoOrigenDatosHaCambiado">
+            <summary>
+            Evento que se ejecuta cuando el parámetro "Origen de datos"
+            </summary>
+        </member>
+        <member name="E:CTGRIDBASE.GRID.DataGridViewBase.CuandoDatosFiltradosHanCambiado">
+            <summary>
+            Evento que se ejecuta cuando se ha establecido un filtro, y se ha cambiado el origne de datos
+            </summary>
+        </member>
+        <member name="E:CTGRIDBASE.GRID.DataGridViewBase.CuandoTerminaBusqueda">
+            <summary>
+            Evento que se produce cuando se ha terminado una busqueda dentro de un DataGridViewBase
+            </summary>
+        </member>
+        <member name="P:CTGRIDBASE.GRID.DataGridViewBase.ColumnasFijadasSalto">
+            <summary>
+            Indices de las columnas que se pueden seguir mediante la tecla [TAB] o la tecla [ENTER]        /// 
+            </summary>
+        </member>
+        <member name="P:CTGRIDBASE.GRID.DataGridViewBase.MostrarMenuContextualDefecto">
+            <summary>
+            Variable que define si las opciones por defecto del menú contextual, se mostrarán o no        ///
+            </summary>
+        </member>
+        <member name="P:CTGRIDBASE.GRID.DataGridViewBase.OpcionesMenuContextualUsuario">
+            <summary>
+            Matriz de objetos ToolStripMenuItem para implementar una funcionalidad adiccional al menú contextual del grid.
+            </summary>
+            <remarks>Nota: Al hacer clic sobre una celda, dicha celda se establece como la celda actual accesible mediante el método CurrentCell de este objeto.</remarks>        
+        </member>
+        <member name="P:CTGRIDBASE.GRID.DataGridViewBase.TransaparenciaDialogosGris">
+            <summary>
+            Procentaje de transparecia de los cuadros de dialogo de buscar y de crear filtro
+            </summary>
+        </member>
+        <member name="P:CTGRIDBASE.GRID.DataGridViewBase.OrigenDatos">
+            <summary>
+            Establece/Obtiene el origen de datos del DataGrid, (Se usa este, porque obtiene el origen de datos sin filtrar en caso de que se establezca un filtro)
+            </summary>
+        </member>
+        <member name="P:CTGRIDBASE.GRID.DataGridViewBase.OrigenDatosFiltrados">
+            <summary>
+            Vista con los datos filtrados
+            </summary>
+        </member>
+        <member name="P:CTGRIDBASE.GRID.DataGridViewBase.ColorOrdenAscendente">
+            <summary>
+            Obtiene/Establece el color del encabezado de la columna, en caso de que se haya establecido un orden ascendente de los datos en esta.
+            </summary>
+        </member>
+        <member name="P:CTGRIDBASE.GRID.DataGridViewBase.ColorOrdenDescendente">
+            <summary>
+            Obtiene/Establece el color del encabezado de la columna, en caso de que se haya establecido un orden descendente de los datos en esta.
+            </summary>
+        </member>
+        <member name="P:CTGRIDBASE.GRID.DataGridViewBase.FormularioPadreMdi">
+            <summary>
+            Obtiene/Establece el formulario contenedor MDI o en su caso el formulario de donde se encuentra el objeto
+            </summary>
+        </member>
+        <member name="F:CTGRIDBASE.GRID.FRM.frmFiltroColumna.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:CTGRIDBASE.GRID.FRM.frmFiltroColumna.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:CTGRIDBASE.GRID.FRM.frmFiltroColumna.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="T:CTGRIDBASE.GRID.COLUMNAS.DataGridViewMaskedColumn">
+            <summary>
+            Tipo de columna que soporta una mascara de validación
+            </summary>
+        </member>
+        <member name="P:CTGRIDBASE.GRID.COLUMNAS.DataGridViewMaskedColumn.mascara">
+            <summary>
+            Obtiene o establece la mascara que actuará en la celdas de las columnas, puede ser uno de los siguientes valores
+            <list type="">
+                <item>@</item><value>Caracteres alfanuméricos</value>
+                <item>Ma@</item><value>Caracteres alfanuméricos convertidos en mayúsculas</value>
+                <item>Mi@</item><value>Caracteres alfanuméricos convertidos en minúsculas</value>
+                <item>1@</item><value>Frase normalizada (Mayúsculas al principio de cada frase)</value>
+                <item>@(Char1;Char2;Char3;....;CharN)</item><value>Cadena de carácteres compuesta por los caracteres Char1, Char2, ..., CharN</value>
+                <item>E(Valor1;Valor2;Valor3;....;ValorN)</item><value>Solo soporta algunos de los valores Valor1, Valor2, ... , ValorN</value>
+                <item>NX.Y</item><value>Número compuesto por X digitos seguido de Y decimales</value>
+            </list>
+            Nota: Cuando la mascara es de tipo E, el usuario puede acceder al listado de items a través de las teclas "Cursor Arriba" y "Cursor Abajo"
+            </summary>
+        </member>
+        <member name="P:CTGRIDBASE.GRID.COLUMNAS.DataGridViewMaskedColumn.requerido">
+            <summary>
+            Establece o obtiene que el campo es requerido
+            </summary>
+        </member>
+        <member name="T:CTGRIDBASE.Properties.Resources">
+            <summary>
+              Clase de recurso con establecimiento inflexible de tipos, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:CTGRIDBASE.Properties.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:CTGRIDBASE.Properties.Resources.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso con establecimiento inflexible de tipos.
+            </summary>
+        </member>
+        <member name="T:CTGRIDBASE.GRID.COLUMNAS.DataGridViewImagenColumn">
+            <summary>
+            Clase que representa una columna que contiene una imagen serializada en Base64
+            </summary>
+        </member>
+        <member name="M:CTGRIDBASE.GRID.COLUMNAS.DataGridViewImagenColumn.#ctor">
+            <summary>
+            Contructor
+            </summary>
+        </member>
+        <member name="M:CTGRIDBASE.GRID.COLUMNAS.DataGridViewImagenColumn.Clone">
+            <summary>
+            Clona la columna actual
+            </summary>
+            <returns>DataGridViewImagenColumn</returns>
+        </member>
+        <member name="P:CTGRIDBASE.GRID.COLUMNAS.DataGridViewImagenColumn.ImagenDefecto">
+            <summary>
+            Imagen que se mostrará en caso de que no tenga error.
+            </summary>
+        </member>
+    </members>
+</doc>

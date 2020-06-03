@@ -1,0 +1,6 @@
+C:\DESARROLLO\NuevoTPV\CLSRPT\obj\Release\ResolveAssemblyReference.cache
+C:\DESARROLLO\NuevoTPV\CLSRPT\obj\Release\CLSRPT.PRODUCTOS.RPT.RptStocks.rpt
+C:\DESARROLLO\NuevoTPV\CLSRPT\obj\Release\CLSRPT.PRODUCTOS.FrmListadoProductos.resources
+C:\DESARROLLO\NuevoTPV\CLSRPT\obj\Release\CLSRPT.Properties.Resources.resources
+C:\DESARROLLO\NuevoTPV\CLSRPT\obj\Release\CLSRPT.VISOR.FrmVisorBase.resources
+C:\DESARROLLO\NuevoTPV\CLSRPT\obj\Release\CLSRPT.csproj.GenerateResource.Cache

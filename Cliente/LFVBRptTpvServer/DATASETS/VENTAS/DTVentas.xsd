@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DTVentas" targetNamespace="http://tempuri.org/DTVentas.xsd" xmlns:mstns="http://tempuri.org/DTVentas.xsd" xmlns="http://tempuri.org/DTVentas.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DTVentas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DTVentas" msprop:Generator_DataSetName="DTVentas">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="CADO_CABECERA_DOCUMENTO" msprop:Generator_UserTableName="CADO_CABECERA_DOCUMENTO" msprop:Generator_RowDeletedName="CADO_CABECERA_DOCUMENTORowDeleted" msprop:Generator_RowChangedName="CADO_CABECERA_DOCUMENTORowChanged" msprop:Generator_RowClassName="CADO_CABECERA_DOCUMENTORow" msprop:Generator_RowChangingName="CADO_CABECERA_DOCUMENTORowChanging" msprop:Generator_RowEvArgName="CADO_CABECERA_DOCUMENTORowChangeEvent" msprop:Generator_RowEvHandlerName="CADO_CABECERA_DOCUMENTORowChangeEventHandler" msprop:Generator_TableClassName="CADO_CABECERA_DOCUMENTODataTable" msprop:Generator_TableVarName="tableCADO_CABECERA_DOCUMENTO" msprop:Generator_RowDeletingName="CADO_CABECERA_DOCUMENTORowDeleting" msprop:Generator_TablePropName="CADO_CABECERA_DOCUMENTO">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_ELEM" msprop:Generator_UserColumnName="ID_ELEM" msprop:Generator_ColumnVarNameInTable="columnID_ELEM" msprop:Generator_ColumnPropNameInRow="ID_ELEM" msprop:Generator_ColumnPropNameInTable="ID_ELEMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="COD_TIDO" msprop:Generator_UserColumnName="COD_TIDO" msprop:Generator_ColumnVarNameInTable="columnCOD_TIDO" msprop:Generator_ColumnPropNameInRow="COD_TIDO" msprop:Generator_ColumnPropNameInTable="COD_TIDOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DESCR_TIDO" msprop:Generator_UserColumnName="DESCR_TIDO" msprop:Generator_ColumnVarNameInTable="columnDESCR_TIDO" msprop:Generator_ColumnPropNameInRow="DESCR_TIDO" msprop:Generator_ColumnPropNameInTable="DESCR_TIDOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NUMERO_CADO" msprop:Generator_UserColumnName="NUMERO_CADO" msprop:Generator_ColumnVarNameInTable="columnNUMERO_CADO" msprop:Generator_ColumnPropNameInRow="NUMERO_CADO" msprop:Generator_ColumnPropNameInTable="NUMERO_CADOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ANYO_CADO" msprop:Generator_UserColumnName="ANYO_CADO" msprop:Generator_ColumnVarNameInTable="columnANYO_CADO" msprop:Generator_ColumnPropNameInRow="ANYO_CADO" msprop:Generator_ColumnPropNameInTable="ANYO_CADOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="FECHA_ENTRADA_CADO" msprop:Generator_UserColumnName="FECHA_ENTRADA_CADO" msprop:Generator_ColumnVarNameInTable="columnFECHA_ENTRADA_CADO" msprop:Generator_ColumnPropNameInRow="FECHA_ENTRADA_CADO" msprop:Generator_ColumnPropNameInTable="FECHA_ENTRADA_CADOColumn" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="PAGADO_CADO" msprop:Generator_UserColumnName="PAGADO_CADO" msprop:Generator_ColumnVarNameInTable="columnPAGADO_CADO" msprop:Generator_ColumnPropNameInRow="PAGADO_CADO" msprop:Generator_ColumnPropNameInTable="PAGADO_CADOColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="NIF_CLIENTE" msprop:Generator_UserColumnName="NIF_CLIENTE" msprop:Generator_ColumnVarNameInTable="columnNIF_CLIENTE" msprop:Generator_ColumnPropNameInRow="NIF_CLIENTE" msprop:Generator_ColumnPropNameInTable="NIF_CLIENTEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NOMBRE_CLIENTE" msprop:Generator_UserColumnName="NOMBRE_CLIENTE" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_CLIENTE" msprop:Generator_ColumnPropNameInRow="NOMBRE_CLIENTE" msprop:Generator_ColumnPropNameInTable="NOMBRE_CLIENTEColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="IMPORTE_CADO" msprop:Generator_UserColumnName="IMPORTE_CADO" msprop:Generator_ColumnVarNameInTable="columnIMPORTE_CADO" msprop:Generator_ColumnPropNameInRow="IMPORTE_CADO" msprop:Generator_ColumnPropNameInTable="IMPORTE_CADOColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="LIDO_LINEAS_DOCUMENTO" msprop:Generator_UserTableName="LIDO_LINEAS_DOCUMENTO" msprop:Generator_RowDeletedName="LIDO_LINEAS_DOCUMENTORowDeleted" msprop:Generator_RowChangedName="LIDO_LINEAS_DOCUMENTORowChanged" msprop:Generator_RowClassName="LIDO_LINEAS_DOCUMENTORow" msprop:Generator_RowChangingName="LIDO_LINEAS_DOCUMENTORowChanging" msprop:Generator_RowEvArgName="LIDO_LINEAS_DOCUMENTORowChangeEvent" msprop:Generator_RowEvHandlerName="LIDO_LINEAS_DOCUMENTORowChangeEventHandler" msprop:Generator_TableClassName="LIDO_LINEAS_DOCUMENTODataTable" msprop:Generator_TableVarName="tableLIDO_LINEAS_DOCUMENTO" msprop:Generator_RowDeletingName="LIDO_LINEAS_DOCUMENTORowDeleting" msprop:Generator_TablePropName="LIDO_LINEAS_DOCUMENTO">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_ELEM_CADO" msprop:Generator_UserColumnName="ID_ELEM_CADO" msprop:Generator_ColumnVarNameInTable="columnID_ELEM_CADO" msprop:Generator_ColumnPropNameInRow="ID_ELEM_CADO" msprop:Generator_ColumnPropNameInTable="ID_ELEM_CADOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ID_ELEM" msprop:Generator_UserColumnName="ID_ELEM" msprop:Generator_ColumnVarNameInTable="columnID_ELEM" msprop:Generator_ColumnPropNameInRow="ID_ELEM" msprop:Generator_ColumnPropNameInTable="ID_ELEMColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ID_ELEM_PROD" msprop:Generator_UserColumnName="ID_ELEM_PROD" msprop:Generator_ColumnVarNameInTable="columnID_ELEM_PROD" msprop:Generator_ColumnPropNameInRow="ID_ELEM_PROD" msprop:Generator_ColumnPropNameInTable="ID_ELEM_PRODColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TEXTO_LIDO" msprop:Generator_UserColumnName="TEXTO_LIDO" msprop:Generator_ColumnVarNameInTable="columnTEXTO_LIDO" msprop:Generator_ColumnPropNameInRow="TEXTO_LIDO" msprop:Generator_ColumnPropNameInTable="TEXTO_LIDOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PVB_LIDO" msprop:Generator_UserColumnName="PVB_LIDO" msprop:Generator_ColumnVarNameInTable="columnPVB_LIDO" msprop:Generator_ColumnPropNameInRow="PVB_LIDO" msprop:Generator_ColumnPropNameInTable="PVB_LIDOColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="PORC_IVA_LIDO" msprop:Generator_UserColumnName="PORC_IVA_LIDO" msprop:Generator_ColumnVarNameInTable="columnPORC_IVA_LIDO" msprop:Generator_ColumnPropNameInRow="PORC_IVA_LIDO" msprop:Generator_ColumnPropNameInTable="PORC_IVA_LIDOColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="PVP_LIDO" msprop:Generator_UserColumnName="PVP_LIDO" msprop:Generator_ColumnVarNameInTable="columnPVP_LIDO" msprop:Generator_ColumnPropNameInRow="PVP_LIDO" msprop:Generator_ColumnPropNameInTable="PVP_LIDOColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="TOTAL_LIDO" msprop:Generator_UserColumnName="TOTAL_LIDO" msprop:Generator_ColumnVarNameInTable="columnTOTAL_LIDO" msprop:Generator_ColumnPropNameInRow="TOTAL_LIDO" msprop:Generator_ColumnPropNameInTable="TOTAL_LIDOColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="COD_TIDO" msprop:Generator_UserColumnName="COD_TIDO" msprop:Generator_ColumnPropNameInRow="COD_TIDO" msprop:Generator_ColumnVarNameInTable="columnCOD_TIDO" msprop:Generator_ColumnPropNameInTable="COD_TIDOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NUMERO_CADO" msprop:Generator_UserColumnName="NUMERO_CADO" msprop:Generator_ColumnPropNameInRow="NUMERO_CADO" msprop:Generator_ColumnVarNameInTable="columnNUMERO_CADO" msprop:Generator_ColumnPropNameInTable="NUMERO_CADOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ANYO_CADO" msprop:Generator_UserColumnName="ANYO_CADO" msprop:Generator_ColumnPropNameInRow="ANYO_CADO" msprop:Generator_ColumnVarNameInTable="columnANYO_CADO" msprop:Generator_ColumnPropNameInTable="ANYO_CADOColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="CADO_CABECERA_DOCUMENTO_LIDO_LINEAS_DOCUMENTO" msdata:parent="CADO_CABECERA_DOCUMENTO" msdata:child="LIDO_LINEAS_DOCUMENTO" msdata:parentkey="ID_ELEM" msdata:childkey="ID_ELEM_CADO" msprop:Generator_UserRelationName="CADO_CABECERA_DOCUMENTO_LIDO_LINEAS_DOCUMENTO" msprop:Generator_RelationVarName="relationCADO_CABECERA_DOCUMENTO_LIDO_LINEAS_DOCUMENTO" msprop:Generator_UserChildTable="LIDO_LINEAS_DOCUMENTO" msprop:Generator_UserParentTable="CADO_CABECERA_DOCUMENTO" msprop:Generator_ParentPropName="CADO_CABECERA_DOCUMENTORow" msprop:Generator_ChildPropName="GetLIDO_LINEAS_DOCUMENTORows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

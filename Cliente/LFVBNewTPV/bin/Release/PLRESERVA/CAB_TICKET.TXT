@@ -1,0 +1,9 @@
+Herbolistería Carrel Moll
+C.I.F 000000000F
+C\ Carrell Moll, nº1
+03500 Agost
+Alicante
+=================================
+Reserva: {NUM_DOC}
+Fecha {FECHA_DOC}
+=================================

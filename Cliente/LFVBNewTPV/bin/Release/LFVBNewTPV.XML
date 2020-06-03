@@ -1,0 +1,536 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LFVBNewTPV</name>
+    </assembly>
+    <members>
+        <member name="F:LFVBNewTPV.COMP.BtnSelectProds.components">
+            <summary> 
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.COMP.BtnSelectProds.Dispose(System.Boolean)">
+            <summary> 
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:LFVBNewTPV.COMP.BtnSelectProds.InitializeComponent">
+            <summary> 
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:LFVBNewTPV.SISTEMA.FrmBase.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.SISTEMA.FrmBase.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:LFVBNewTPV.SISTEMA.FrmBase.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:LFVBNewTPV.CRM.PERSONAS.FrmPersona.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.CRM.PERSONAS.FrmPersona.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:LFVBNewTPV.CRM.PERSONAS.FrmPersona.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:LFVBNewTPV.CRM.PERSONAS.FrmPersonas.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.CRM.PERSONAS.FrmPersonas.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:LFVBNewTPV.CRM.PERSONAS.FrmPersonas.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:LFVBNewTPV.CRM.PRODUCTOS.FrmProducto.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.CRM.PRODUCTOS.FrmProducto.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:LFVBNewTPV.CRM.PRODUCTOS.FrmProducto.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:LFVBNewTPV.CRM.PRODUCTOS.FrmProductos.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.CRM.PRODUCTOS.FrmProductos.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:LFVBNewTPV.CRM.PRODUCTOS.FrmProductos.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:LFVBNewTPV.FrmMain.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.FrmMain.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:LFVBNewTPV.FrmMain.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:LFVBNewTPV.MAE.FrmMae.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.MAE.FrmMae.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:LFVBNewTPV.MAE.FrmMae.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:LFVBNewTPV.MAE.UTILIDADES.FrmAplicarTipoIvaNuevo.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.MAE.UTILIDADES.FrmAplicarTipoIvaNuevo.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:LFVBNewTPV.MAE.UTILIDADES.FrmAplicarTipoIvaNuevo.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.Program.Main">
+            <summary>
+            Punto de entrada principal para la aplicación.
+            </summary>
+        </member>
+        <member name="T:LFVBNewTPV.Properties.Resources">
+            <summary>
+              Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.ResourceManager">
+            <summary>
+              Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.Culture">
+            <summary>
+              Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+              búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.address_book">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.box">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.businessman">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.businessman1">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.businessmen">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.cashier">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.check2">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.clock">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.data_disk">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.data_edit">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.delete2">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.disk_blue">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.disk_blue1">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.disk_blue2">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.document_dirty">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.error">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.factory">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.find">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.gear_warning">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.index">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.keyboard">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.keyboard1">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.message">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.money2">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.money21">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.printer">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.printer2">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.refresh">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.user1_back">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:LFVBNewTPV.Properties.Resources.user1_earth">
+            <summary>
+              Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="F:LFVBNewTPV.RESERVAS.FrmReserva.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.RESERVAS.FrmReserva.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:LFVBNewTPV.RESERVAS.FrmReserva.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:LFVBNewTPV.RESERVAS.FrmReservas.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.RESERVAS.FrmReservas.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:LFVBNewTPV.RESERVAS.FrmReservas.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:LFVBNewTPV.SISTEMA.CONFIGURACION.FrmConfiguracion.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.SISTEMA.CONFIGURACION.FrmConfiguracion.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:LFVBNewTPV.SISTEMA.CONFIGURACION.FrmConfiguracion.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:LFVBNewTPV.SISTEMA.MENSAJES.FrmMensajeBase.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.SISTEMA.MENSAJES.FrmMensajeBase.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:LFVBNewTPV.SISTEMA.MENSAJES.FrmMensajeBase.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:LFVBNewTPV.SISTEMA.MENSAJES.FrmAviso.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.SISTEMA.MENSAJES.FrmAviso.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:LFVBNewTPV.SISTEMA.MENSAJES.FrmAviso.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:LFVBNewTPV.SISTEMA.MENSAJES.FrmError.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.SISTEMA.MENSAJES.FrmError.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:LFVBNewTPV.SISTEMA.MENSAJES.FrmError.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:LFVBNewTPV.SISTEMA.UTILES.FrmCopiaSeguridad.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.SISTEMA.UTILES.FrmCopiaSeguridad.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:LFVBNewTPV.SISTEMA.UTILES.FrmCopiaSeguridad.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:LFVBNewTPV.SISTEMA.VALIDACION.FrmValidarUsuario.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.SISTEMA.VALIDACION.FrmValidarUsuario.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:LFVBNewTPV.SISTEMA.VALIDACION.FrmValidarUsuario.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:LFVBNewTPV.TPV.FrmAuxiliares.FrmCobrarDocu.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.TPV.FrmAuxiliares.FrmCobrarDocu.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:LFVBNewTPV.TPV.FrmAuxiliares.FrmCobrarDocu.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:LFVBNewTPV.TPV.FrmAuxiliares.FrmTipoDocumento.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.TPV.FrmAuxiliares.FrmTipoDocumento.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:LFVBNewTPV.TPV.FrmAuxiliares.FrmTipoDocumento.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:LFVBNewTPV.TPV.FrmDocumento.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.TPV.FrmDocumento.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:LFVBNewTPV.TPV.FrmDocumento.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+        <member name="F:LFVBNewTPV.TPV.FrmDocumentos.components">
+            <summary>
+            Variable del diseñador requerida.
+            </summary>
+        </member>
+        <member name="M:LFVBNewTPV.TPV.FrmDocumentos.Dispose(System.Boolean)">
+            <summary>
+            Limpiar los recursos que se estén utilizando.
+            </summary>
+            <param name="disposing">true si los recursos administrados se deben eliminar; false en caso contrario, false.</param>
+        </member>
+        <member name="M:LFVBNewTPV.TPV.FrmDocumentos.InitializeComponent">
+            <summary>
+            Método necesario para admitir el Diseñador. No se puede modificar
+            el contenido del método con el editor de código.
+            </summary>
+        </member>
+    </members>
+</doc>

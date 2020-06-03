@@ -1,0 +1,135 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FtpLibrary
+</name>
+</assembly>
+<members>
+<member name="P:FtpLibrary.ClienteFtp.UsuarioFTP">
+	<summary>
+ Usuario para identificarse en el servidor FTP, si es anonimo el usuario es anonymous
+ </summary>
+	<value>String con el usuario</value>
+	<returns>String con el usuario</returns>
+	<remarks></remarks>
+</member><member name="P:FtpLibrary.ClienteFtp.PasswordFTP">
+	<summary>
+ Password para identificarse en el servidor FTP, si es anonimo se recomienda poner el correo electronico
+ </summary>
+	<value>String con el password</value>
+	<returns>String con el password</returns>
+	<remarks></remarks>
+</member><member name="P:FtpLibrary.ClienteFtp.RutaRemota">
+	<summary>
+ Variable que almacena la ruta remota actual
+ </summary>
+	<value>String con la ruta remota</value>
+	<returns>String con la ruta remota</returns>
+	<remarks></remarks>
+</member><member name="M:FtpLibrary.ClienteFtp.#ctor(System.String,System.String,System.String)">
+	<summary>
+ Constructor de la clase
+ </summary>
+	<param name="url">String con la URL del servidor FTP, se recomienda que esta url sea de la forma 'ftp://[Dominio]/[Carpeta](</param>
+	<param name="usuario">String con el usuario del FTP</param>
+	<param name="password">String con el password del FTP</param>
+	<remarks></remarks>
+</member><member name="M:FtpLibrary.ClienteFtp.ObtenerClienteFTP(System.String)">
+	<summary>
+ Obtiene un objeto FtpWebRequest, a partir de una dirección URL y los parámetros pasados en el constructor
+ </summary>
+	<param name="url">String con la URL donde se ejecutará el comando</param>
+	<returns>FtpWebRequest con los datos de la URL y las credenciales</returns>
+	<remarks></remarks>
+</member><member name="M:FtpLibrary.ClienteFtp.LS(System.String,System.Boolean)">
+	<summary>
+ Lista directorios a partir de la ruta actual en el FTP
+ </summary>
+	<param name="directorio">Url del directorio actual</param>
+	<param name="extenso">Si se marca como true, quiere decir que en el listado aparecerán los atributos del fichero</param>
+	<returns>System.Collections.ArrayList con todas las carpetas y/o ficheros del directorio actual</returns>
+	<remarks></remarks>
+</member><member name="M:FtpLibrary.ClienteFtp.LSTree(System.String,System.Int32)">
+	<summary>
+ Lista el arbol de directorios y ficheros desde la ubicacion actual
+ </summary>
+	<param name="directorio">directorio raiz de donde se empieza a crear el arbol</param>
+	<param name="TabIndex">Parametro opcional que es el nivel del directorio raiz</param>
+	<returns>Collections.ArrayList</returns>
+	<remarks>
+		<see cref="Collections.ArrayList"></see>
+		<see cref="ClienteFtp.LS"></see>
+	</remarks>
+</member><member name="M:FtpLibrary.ClienteFtp.Upload(System.String,System.String)">
+	<summary>
+ Comando para subir un fichero al FTP
+ </summary>
+	<param name="fichero">Ruta del fichero a subir</param>
+	<param name="donde">Ruta donde se copiará el fichero en el servidor remoto (Con nombre fichero incluido)</param>
+	<remarks></remarks>
+</member><member name="M:FtpLibrary.ClienteFtp.Upload(System.String[],System.String)">
+	<summary>
+ Comando para subir varios ficheros al FTP
+ </summary>
+	<param name="ficheros">Array con las rutas de los ficheros a copiar</param>
+	<param name="ruta">Ruta donde se copiaran los ficheros en el servidor remoto</param>
+	<remarks></remarks>
+</member><member name="M:FtpLibrary.ClienteFtp.Download(System.String,System.String,System.String)">
+	<summary>
+ Comando para descargar un fichero desde el FTP
+ </summary>
+	<param name="ubicacion">Donde se quiere copiar el fichero (Local)</param>
+	<param name="rutaFicheroRemoto">Donde se encuentra el fichero remoto (Ruta remota)</param>
+	<param name="ficheroRemoto">Nombre del fichero a descargar</param>
+	<remarks></remarks>
+</member><member name="M:FtpLibrary.ClienteFtp.Download(System.String,System.String)">
+	<summary>
+ Comando para descargar todos los ficheros desde un FTP de una ruta determinada
+ </summary>
+	<param name="ubicacion">Donde se copiaran los fichero (Local)</param>
+	<param name="rutaFicherosRemoto">Donde se encuentran los ficheros remotos (Remoto)</param>
+	<remarks></remarks>
+</member><member name="M:FtpLibrary.ClienteFtp.Delete(System.String,System.String)">
+	<summary>
+ Comando para eliminar un fichero en el FTP
+ </summary>
+	<param name="ruta">Ruta remota del fichero</param>
+	<param name="fichero">Fichero a eliminar</param>
+	<returns>String con el estado del comando</returns>
+	<remarks></remarks>
+</member><member name="M:FtpLibrary.ClienteFtp.Delete(System.String,System.String,System.Boolean)">
+	<summary>
+ Comando para eliminar el contenido de un directorio remoto
+ </summary>
+	<param name="ubicacion">Ubicación del directorio que queremos eliminar el contenido</param>
+	<param name="directorio">Nombre del directorio que se eliminara el contenido</param>
+	<param name="subdirectorios">True para eliminar los subdirectorios, false para dejar el arbol intacto</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:FtpLibrary.ClienteFtp.mkDir(System.String,System.String)">
+	<summary>
+ Comando para crear un directorio remoto
+ </summary>
+	<param name="ubicacion">Ruta donde se creará el directorio</param>
+	<param name="directorio">Nombre del nuevo directorio</param>
+	<returns>Cadena de estado</returns>
+	<remarks></remarks>
+</member><member name="M:FtpLibrary.ClienteFtp.rmDir(System.String,System.String)">
+	<summary>
+ Comando para eliminar un directorio remoto
+ </summary>
+	<param name="ubicacion">Ubicación del directorio</param>
+	<param name="directorio">Nombre del directorio</param>
+	<returns>Estado de la acción</returns>
+	<remarks></remarks>
+</member><member name="T:FtpLibrary.ClienteFtp">
+	<summary>
+ Clase cliente para el manejo del FTP
+ 
+ El uso de esta clase, es llamar al constructor para crear la variable, e ir llamando a las funciones
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

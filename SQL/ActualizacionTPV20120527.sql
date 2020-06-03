@@ -1,0 +1,1 @@
+alter table prod_productos add DESCRIPCION_PROD text default null;

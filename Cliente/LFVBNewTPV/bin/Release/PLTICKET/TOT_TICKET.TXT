@@ -1,0 +1,6 @@
+Total Bruto
+{TOTAL_BRUTO} €
+Iva
+{TOTAL_IVA} €
+Total
+{IMPORTE_TOTAL} €

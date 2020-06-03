@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DTClientes" targetNamespace="http://tempuri.org/DTClientes.xsd" xmlns:mstns="http://tempuri.org/DTClientes.xsd" xmlns="http://tempuri.org/DTClientes.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DTClientes" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DTClientes" msprop:Generator_DataSetName="DTClientes">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PERS_PERSONAS" msprop:Generator_UserTableName="PERS_PERSONAS" msprop:Generator_RowDeletedName="PERS_PERSONASRowDeleted" msprop:Generator_TableClassName="PERS_PERSONASDataTable" msprop:Generator_RowChangedName="PERS_PERSONASRowChanged" msprop:Generator_RowClassName="PERS_PERSONASRow" msprop:Generator_RowChangingName="PERS_PERSONASRowChanging" msprop:Generator_RowEvArgName="PERS_PERSONASRowChangeEvent" msprop:Generator_RowEvHandlerName="PERS_PERSONASRowChangeEventHandler" msprop:Generator_TablePropName="PERS_PERSONAS" msprop:Generator_TableVarName="tablePERS_PERSONAS" msprop:Generator_RowDeletingName="PERS_PERSONASRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_ELEM" msprop:Generator_UserColumnName="ID_ELEM" msprop:Generator_ColumnPropNameInRow="ID_ELEM" msprop:Generator_ColumnVarNameInTable="columnID_ELEM" msprop:Generator_ColumnPropNameInTable="ID_ELEMColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="NIF_PERS" msprop:Generator_UserColumnName="NIF_PERS" msprop:Generator_ColumnPropNameInRow="NIF_PERS" msprop:Generator_ColumnVarNameInTable="columnNIF_PERS" msprop:Generator_ColumnPropNameInTable="NIF_PERSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NOMBRE_PERS" msprop:Generator_UserColumnName="NOMBRE_PERS" msprop:Generator_ColumnPropNameInRow="NOMBRE_PERS" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_PERS" msprop:Generator_ColumnPropNameInTable="NOMBRE_PERSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DIRE_PERS" msprop:Generator_UserColumnName="DIRE_PERS" msprop:Generator_ColumnPropNameInRow="DIRE_PERS" msprop:Generator_ColumnVarNameInTable="columnDIRE_PERS" msprop:Generator_ColumnPropNameInTable="DIRE_PERSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="COD_POSTAL_PERS" msprop:Generator_UserColumnName="COD_POSTAL_PERS" msprop:Generator_ColumnPropNameInRow="COD_POSTAL_PERS" msprop:Generator_ColumnVarNameInTable="columnCOD_POSTAL_PERS" msprop:Generator_ColumnPropNameInTable="COD_POSTAL_PERSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="POBLACION_PERS" msprop:Generator_UserColumnName="POBLACION_PERS" msprop:Generator_ColumnPropNameInRow="POBLACION_PERS" msprop:Generator_ColumnVarNameInTable="columnPOBLACION_PERS" msprop:Generator_ColumnPropNameInTable="POBLACION_PERSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="PROVINCIA_PERS" msprop:Generator_UserColumnName="PROVINCIA_PERS" msprop:Generator_ColumnPropNameInRow="PROVINCIA_PERS" msprop:Generator_ColumnVarNameInTable="columnPROVINCIA_PERS" msprop:Generator_ColumnPropNameInTable="PROVINCIA_PERSColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EMAIL_PERS" msprop:Generator_UserColumnName="EMAIL_PERS" msprop:Generator_ColumnPropNameInRow="EMAIL_PERS" msprop:Generator_ColumnVarNameInTable="columnEMAIL_PERS" msprop:Generator_ColumnPropNameInTable="EMAIL_PERSColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

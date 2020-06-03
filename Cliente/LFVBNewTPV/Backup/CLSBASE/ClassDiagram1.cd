@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Segoe UI" Size="9" />
+  <Class Name="CLSBASE.CRM.DOCUMENTOS.Documento" Collapsed="true">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CRM\DOCUMENTOS\Documento.cs</FileName>
+      <HashCode>oAAAIAAAAgAAIABAgAAAAAAQAAAQEQCAAAAADAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CLSBASE.CRM.DOCUMENTOS.Documentos" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CRM\DOCUMENTOS\Documentos.cs</FileName>
+      <HashCode>JEAAAAAAAACAAAAEACAAAhAAAAFAEAAAAAAAhAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.362" Collapsed="true" />
+  </Class>
+  <Class Name="CLSBASE.CRM.DOCUMENTOS.TipoDocumentos" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CRM\DOCUMENTOS\TipoDocumentos.cs</FileName>
+      <HashCode>IEAAAAAAAAAAAAAABCAAABAAAAAAEAAAQAAAgAAIAAQ=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CLSBASE.CRM.PERSONAS.Persona" Collapsed="true">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CRM\PERSONAS\Persona.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAQAAAAEQCCAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CLSBASE.CRM.PERSONAS.Personas" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CRM\PERSONAS\Personas.cs</FileName>
+      <HashCode>BEAAAAAAAAAAAAAEACAAAhAAAAFAEAAAAAAAhAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CLSBASE.CRM.PERSONAS.TipoPersonas" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="6.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CRM\PERSONAS\TipoPersonas.cs</FileName>
+      <HashCode>AEAAAAAAAAAAAAAAACAAABAAAAAAEAAAQAAAgAAAAAQ=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CLSBASE.CRM.PRODUCTOS.Familias" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CRM\PRODUCTOS\Familia.cs</FileName>
+      <HashCode>AEAAAAAAAAAAAAAAACAAABAAAAAAEAAAQAAAgAAAAAQ=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.362" Collapsed="true" />
+  </Class>
+  <Class Name="CLSBASE.CRM.PRODUCTOS.IVA" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CRM\PRODUCTOS\IVA.cs</FileName>
+      <HashCode>AEAAAACAAAAAAAAAgCAAABAAAAAAEAAAQAAAgEAAAAQ=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Orientation="Left" Position="0.271" Collapsed="true" />
+  </Class>
+  <Class Name="CLSBASE.CRM.PRODUCTOS.Producto" Collapsed="true">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CRM\PRODUCTOS\Producto.cs</FileName>
+      <HashCode>NAAQAAAAADgABAREAAAAAAhQAAAgEQCgAAAABAAAAMA=</HashCode>
+    </TypeIdentifier>
+    <InheritanceLine Type="CLSBASE.Elemento" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="3.875" Y="2.062" />
+        <Point X="3.829" Y="2.165" />
+        <Point X="3.829" Y="2.375" />
+        <Point X="5.75" Y="2.375" />
+        <Point X="5.75" Y="2.75" />
+      </Path>
+    </InheritanceLine>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CLSBASE.CRM.PRODUCTOS.Productos" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CRM\PRODUCTOS\Productos.cs</FileName>
+      <HashCode>BEAAAAAAAAAAAAAEACAAAhAAAAFAEAAAAAAAhAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CLSBASE.CRM.PRODUCTOS.Subfamilias" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>CRM\PRODUCTOS\Subfamilias.cs</FileName>
+      <HashCode>AEAAAAAAAAAAAAAAACAAABAAAAAAEAAAQAAAgAAAAAQ=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CLSBASE.Elemento" Collapsed="true">
+    <Position X="2.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>Elemento.cs</FileName>
+      <HashCode>AAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLSBASE.IGlobal" Collapsed="true">
+    <Position X="11" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>IGlobal.cs</FileName>
+      <HashCode>AgIKAAAAAAAACAAAAAAAAAAAAAAAQIAACAAAAAgAQQA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CLSBASE.SISTEMA.USUARIOS.Usuario" Collapsed="true">
+    <Position X="11" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>SISTEMA\USUARIOS\Usuario.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAgAEQCAAAAAAAAAAAw=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="CLSBASE.INTERFACES.IElemento" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>INTERFACES\IElemento.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CLSBASE.INTERFACES.IElementos" Collapsed="true">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>INTERFACES\IElementos.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAABAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="CLSBASE.INTERFACES.IMaestro" Collapsed="true">
+    <Position X="2.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>INTERFACES\IMaestro.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Interface>
+</ClassDiagram>

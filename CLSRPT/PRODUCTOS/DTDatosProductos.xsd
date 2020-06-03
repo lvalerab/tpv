@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DTDatosProductos" targetNamespace="http://tempuri.org/DTDatosProductos.xsd" xmlns:mstns="http://tempuri.org/DTDatosProductos.xsd" xmlns="http://tempuri.org/DTDatosProductos.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DTDatosProductos" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DTDatosProductos" msprop:Generator_DataSetName="DTDatosProductos">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="FAMI_FAMILIA" msprop:Generator_UserTableName="FAMI_FAMILIA" msprop:Generator_RowDeletedName="FAMI_FAMILIARowDeleted" msprop:Generator_TableClassName="FAMI_FAMILIADataTable" msprop:Generator_RowChangedName="FAMI_FAMILIARowChanged" msprop:Generator_RowClassName="FAMI_FAMILIARow" msprop:Generator_RowChangingName="FAMI_FAMILIARowChanging" msprop:Generator_RowEvArgName="FAMI_FAMILIARowChangeEvent" msprop:Generator_RowEvHandlerName="FAMI_FAMILIARowChangeEventHandler" msprop:Generator_TablePropName="FAMI_FAMILIA" msprop:Generator_TableVarName="tableFAMI_FAMILIA" msprop:Generator_RowDeletingName="FAMI_FAMILIARowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="COD_FAMI" msprop:Generator_UserColumnName="COD_FAMI" msprop:Generator_ColumnPropNameInRow="COD_FAMI" msprop:Generator_ColumnVarNameInTable="columnCOD_FAMI" msprop:Generator_ColumnPropNameInTable="COD_FAMIColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NOMBRE_FAMI" msprop:Generator_UserColumnName="NOMBRE_FAMI" msprop:Generator_ColumnPropNameInRow="NOMBRE_FAMI" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_FAMI" msprop:Generator_ColumnPropNameInTable="NOMBRE_FAMIColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="SUFA_SUB_FAMILIAS" msprop:Generator_UserTableName="SUFA_SUB_FAMILIAS" msprop:Generator_RowDeletedName="SUFA_SUB_FAMILIASRowDeleted" msprop:Generator_TableClassName="SUFA_SUB_FAMILIASDataTable" msprop:Generator_RowChangedName="SUFA_SUB_FAMILIASRowChanged" msprop:Generator_RowClassName="SUFA_SUB_FAMILIASRow" msprop:Generator_RowChangingName="SUFA_SUB_FAMILIASRowChanging" msprop:Generator_RowEvArgName="SUFA_SUB_FAMILIASRowChangeEvent" msprop:Generator_RowEvHandlerName="SUFA_SUB_FAMILIASRowChangeEventHandler" msprop:Generator_TablePropName="SUFA_SUB_FAMILIAS" msprop:Generator_TableVarName="tableSUFA_SUB_FAMILIAS" msprop:Generator_RowDeletingName="SUFA_SUB_FAMILIASRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="COD_FAMI" msprop:Generator_UserColumnName="COD_FAMI" msprop:Generator_ColumnPropNameInRow="COD_FAMI" msprop:Generator_ColumnVarNameInTable="columnCOD_FAMI" msprop:Generator_ColumnPropNameInTable="COD_FAMIColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="COD_SUFA" msprop:Generator_UserColumnName="COD_SUFA" msprop:Generator_ColumnPropNameInRow="COD_SUFA" msprop:Generator_ColumnVarNameInTable="columnCOD_SUFA" msprop:Generator_ColumnPropNameInTable="COD_SUFAColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NOMBRE_SUFA" msprop:Generator_UserColumnName="NOMBRE_SUFA" msprop:Generator_ColumnPropNameInRow="NOMBRE_SUFA" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_SUFA" msprop:Generator_ColumnPropNameInTable="NOMBRE_SUFAColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PROD_PRODUCTOS" msprop:Generator_UserTableName="PROD_PRODUCTOS" msprop:Generator_RowDeletedName="PROD_PRODUCTOSRowDeleted" msprop:Generator_TableClassName="PROD_PRODUCTOSDataTable" msprop:Generator_RowChangedName="PROD_PRODUCTOSRowChanged" msprop:Generator_RowClassName="PROD_PRODUCTOSRow" msprop:Generator_RowChangingName="PROD_PRODUCTOSRowChanging" msprop:Generator_RowEvArgName="PROD_PRODUCTOSRowChangeEvent" msprop:Generator_RowEvHandlerName="PROD_PRODUCTOSRowChangeEventHandler" msprop:Generator_TablePropName="PROD_PRODUCTOS" msprop:Generator_TableVarName="tablePROD_PRODUCTOS" msprop:Generator_RowDeletingName="PROD_PRODUCTOSRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ID_ELEM" msprop:Generator_UserColumnName="ID_ELEM" msprop:Generator_ColumnPropNameInRow="ID_ELEM" msprop:Generator_ColumnVarNameInTable="columnID_ELEM" msprop:Generator_ColumnPropNameInTable="ID_ELEMColumn" type="xs:long" minOccurs="0" />
+              <xs:element name="COD_FAMI" msprop:Generator_UserColumnName="COD_FAMI" msprop:Generator_ColumnPropNameInRow="COD_FAMI" msprop:Generator_ColumnVarNameInTable="columnCOD_FAMI" msprop:Generator_ColumnPropNameInTable="COD_FAMIColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="COD_SUFA" msprop:Generator_UserColumnName="COD_SUFA" msprop:Generator_ColumnPropNameInRow="COD_SUFA" msprop:Generator_ColumnVarNameInTable="columnCOD_SUFA" msprop:Generator_ColumnPropNameInTable="COD_SUFAColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="COD_BARRAS" msprop:Generator_UserColumnName="COD_BARRAS" msprop:Generator_ColumnPropNameInRow="COD_BARRAS" msprop:Generator_ColumnVarNameInTable="columnCOD_BARRAS" msprop:Generator_ColumnPropNameInTable="COD_BARRASColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="NOMBRE_PROD" msprop:Generator_UserColumnName="NOMBRE_PROD" msprop:Generator_ColumnPropNameInRow="NOMBRE_PROD" msprop:Generator_ColumnVarNameInTable="columnNOMBRE_PROD" msprop:Generator_ColumnPropNameInTable="NOMBRE_PRODColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="EXISTENCIAS_PROD" msprop:Generator_UserColumnName="EXISTENCIAS_PROD" msprop:Generator_ColumnPropNameInRow="EXISTENCIAS_PROD" msprop:Generator_ColumnVarNameInTable="columnEXISTENCIAS_PROD" msprop:Generator_ColumnPropNameInTable="EXISTENCIAS_PRODColumn" type="xs:long" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="FAMI_FAMILIAKey1">
+      <xs:selector xpath=".//mstns:FAMI_FAMILIA" />
+      <xs:field xpath="mstns:COD_FAMI" />
+    </xs:unique>
+    <xs:unique name="SUFA_SUB_FAMILIASKey1">
+      <xs:selector xpath=".//mstns:SUFA_SUB_FAMILIAS" />
+      <xs:field xpath="mstns:COD_FAMI" />
+      <xs:field xpath="mstns:COD_SUFA" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="FAMI_FAMILIA_SUFA_SUB_FAMILIAS" msdata:parent="FAMI_FAMILIA" msdata:child="SUFA_SUB_FAMILIAS" msdata:parentkey="COD_FAMI" msdata:childkey="COD_FAMI" msprop:Generator_UserRelationName="FAMI_FAMILIA_SUFA_SUB_FAMILIAS" msprop:Generator_RelationVarName="relationFAMI_FAMILIA_SUFA_SUB_FAMILIAS" msprop:Generator_UserChildTable="SUFA_SUB_FAMILIAS" msprop:Generator_UserParentTable="FAMI_FAMILIA" msprop:Generator_ParentPropName="FAMI_FAMILIARow" msprop:Generator_ChildPropName="GetSUFA_SUB_FAMILIASRows" />
+      <msdata:Relationship name="SUFA_SUB_FAMILIAS_PROD_PRODUCTOS" msdata:parent="SUFA_SUB_FAMILIAS" msdata:child="PROD_PRODUCTOS" msdata:parentkey="COD_FAMI COD_SUFA" msdata:childkey="COD_FAMI COD_SUFA" msprop:Generator_UserRelationName="SUFA_SUB_FAMILIAS_PROD_PRODUCTOS" msprop:Generator_RelationVarName="relationSUFA_SUB_FAMILIAS_PROD_PRODUCTOS" msprop:Generator_UserChildTable="PROD_PRODUCTOS" msprop:Generator_UserParentTable="SUFA_SUB_FAMILIAS" msprop:Generator_ParentPropName="SUFA_SUB_FAMILIASRowParent" msprop:Generator_ChildPropName="GetPROD_PRODUCTOSRows" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>

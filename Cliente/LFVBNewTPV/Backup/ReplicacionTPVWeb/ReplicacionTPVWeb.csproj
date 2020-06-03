@@ -1,0 +1,94 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{95B7606E-D06E-4DA3-83DA-86EDF59CD27A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ReplicacionTPVWeb</RootNamespace>
+    <AssemblyName>ReplicacionTPVWeb</AssemblyName>
+    <ApplicationIcon>Listados new TPV.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FtpLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\FtpLibrary\FtpLibrary\bin\Release\FtpLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.1.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CLASES\LOGS\FileLog.cs" />
+    <Compile Include="CLASES\LOGS\MailLog.cs" />
+    <Compile Include="IGlobal.cs" />
+    <Compile Include="Instalador.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Instalador.Designer.cs">
+      <DependentUpon>Instalador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReplicacionTPVWeb.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReplicacionTPVWeb.Designer.cs">
+      <DependentUpon>ReplicacionTPVWeb.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ReplicacionTPVWeb.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ReplicacionTPVWeb.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Cliente\CLSBASE\CLSBASE.csproj">
+      <Project>{C8ABCA30-C4AB-4317-9C7A-B047C489B6E0}</Project>
+      <Name>CLSBASE</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Listados new TPV.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CLASES\WEB\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

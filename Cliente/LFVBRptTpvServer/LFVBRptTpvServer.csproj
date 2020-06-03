@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B828F58B-94AA-4AF7-BD9B-49D00207E8AD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LFVBRptTpvServer</RootNamespace>
+    <AssemblyName>LFVBRptTpvServer</AssemblyName>
+    <StartupObject>
+    </StartupObject>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CTCBASE, Version=1.0.3863.31186, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\CTCBASE.dll</HintPath>
+    </Reference>
+    <Reference Include="CTGRIDBASE, Version=1.0.4071.33467, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\CTGRIDBASE.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.1.6.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DATASETS\CLIENTES\DTClientes.cs">
+      <DependentUpon>DTClientes.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DATASETS\CLIENTES\DTClientes.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DTClientes.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DATASETS\VENTAS\DTVentas.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DTVentas.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DATASETS\PRODUCTOS\DTProductos.cs">
+      <DependentUpon>DTProductos.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DATASETS\PRODUCTOS\DTProductos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DTProductos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\CLIENTES\FrmClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\CLIENTES\FrmClientes.Designer.cs">
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\FrmConfiguracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\FrmConfiguracion.Designer.cs">
+      <DependentUpon>FrmConfiguracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\PRODUCTOS\FRMAUX\FrmFiltroPrecios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\PRODUCTOS\FRMAUX\FrmFiltroPrecios.Designer.cs">
+      <DependentUpon>FrmFiltroPrecios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\PRODUCTOS\FRMAUX\FrmFiltroStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\PRODUCTOS\FRMAUX\FrmFiltroStock.Designer.cs">
+      <DependentUpon>FrmFiltroStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\PRODUCTOS\FrmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\PRODUCTOS\FrmProductos.Designer.cs">
+      <DependentUpon>FrmProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\VENTAS\FRMAUX\FrmFiltroVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\VENTAS\FRMAUX\FrmFiltroVentas.Designer.cs">
+      <DependentUpon>FrmFiltroVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM\VENTAS\FrmVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM\VENTAS\FrmVentas.Designer.cs">
+      <DependentUpon>FrmVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IGlobal.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RPT\CLIENTES\RptClientes.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptClientes.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\PRODUCTOS\RptProductosPrecios.cs">
+      <DependentUpon>RptProductosPrecios.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="RPT\PRODUCTOS\RptProductosStock.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptProductosStock.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\VENTAS\RptIva.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptIva.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="RPT\VENTAS\RptVentas.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RptVentas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FrmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\CLIENTES\FrmClientes.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\FrmConfiguracion.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmConfiguracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\PRODUCTOS\FRMAUX\FrmFiltroPrecios.resx">
+      <DependentUpon>FrmFiltroPrecios.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\PRODUCTOS\FRMAUX\FrmFiltroStock.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmFiltroStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\PRODUCTOS\FrmProductos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\VENTAS\FRMAUX\FrmFiltroVentas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmFiltroVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM\VENTAS\FrmVentas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\CLIENTES\RptClientes.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptClientes.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\PRODUCTOS\RptProductosPrecios.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptProductosPrecios.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\PRODUCTOS\RptProductosStock.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptProductosStock.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\VENTAS\RptIva.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptIva.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RPT\VENTAS\RptVentas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RptVentas.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box_tall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_certificate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_attachment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATASETS\PRODUCTOS\DTProductos.xsc">
+      <DependentUpon>DTProductos.xsd</DependentUpon>
+    </None>
+    <None Include="DATASETS\PRODUCTOS\DTProductos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DTProductos.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DATASETS\PRODUCTOS\DTProductos.xss">
+      <DependentUpon>DTProductos.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\delete2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\check2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DATASETS\CLIENTES\DTClientes.xsc">
+      <DependentUpon>DTClientes.xsd</DependentUpon>
+    </None>
+    <None Include="DATASETS\CLIENTES\DTClientes.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DTClientes.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DATASETS\CLIENTES\DTClientes.xss">
+      <DependentUpon>DTClientes.xsd</DependentUpon>
+    </None>
+    <None Include="DATASETS\VENTAS\DTVentas.xsc">
+      <DependentUpon>DTVentas.xsd</DependentUpon>
+    </None>
+    <None Include="DATASETS\VENTAS\DTVentas.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DTVentas.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DATASETS\VENTAS\DTVentas.xss">
+      <DependentUpon>DTVentas.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\money2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disk_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FRM\RESERVAS\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1 @@
+alter table pers_personas add EMAIL_PERS varchar(255) default null;

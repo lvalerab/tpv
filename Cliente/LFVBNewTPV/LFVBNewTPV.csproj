@@ -1,0 +1,396 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F9C9DB51-AEFD-416A-817D-80E6855FC52C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>LFVBNewTPV</RootNamespace>
+    <AssemblyName>LFVBNewTPV</AssemblyName>
+    <ApplicationIcon>Tpv.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <DocumentationFile>bin\Release\LFVBNewTPV.XML</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CTCBASE, Version=1.0.3863.31186, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\componentesbase\CTGRIDBASE\CTGRIDBASE\bin\Release\CTCBASE.dll</HintPath>
+    </Reference>
+    <Reference Include="CTGRIDBASE, Version=1.0.3863.31727, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\componentesbase\CTGRIDBASE\CTGRIDBASE\bin\Release\CTGRIDBASE.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="COMP\BtnSelectProds.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="COMP\BtnSelectProds.Designer.cs">
+      <DependentUpon>BtnSelectProds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRM\PERSONAS\FrmPersona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRM\PERSONAS\FrmPersona.Designer.cs">
+      <DependentUpon>FrmPersona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRM\PERSONAS\FrmPersonas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRM\PERSONAS\FrmPersonas.Designer.cs">
+      <DependentUpon>FrmPersonas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRM\PRODUCTOS\FrmProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRM\PRODUCTOS\FrmProducto.Designer.cs">
+      <DependentUpon>FrmProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CRM\PRODUCTOS\FrmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CRM\PRODUCTOS\FrmProductos.Designer.cs">
+      <DependentUpon>FrmProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAE\FrmMae.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAE\FrmMae.Designer.cs">
+      <DependentUpon>FrmMae.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MAE\UTILIDADES\FrmAplicarTipoIvaNuevo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MAE\UTILIDADES\FrmAplicarTipoIvaNuevo.Designer.cs">
+      <DependentUpon>FrmAplicarTipoIvaNuevo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="COMP\BtnSelectProds.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>BtnSelectProds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRM\PERSONAS\FrmPersona.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPersona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRM\PERSONAS\FrmPersonas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPersonas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRM\PRODUCTOS\FrmProducto.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CRM\PRODUCTOS\FrmProductos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAE\FrmMae.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMae.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MAE\UTILIDADES\FrmAplicarTipoIvaNuevo.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmAplicarTipoIvaNuevo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RESERVAS\FrmReserva.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmReserva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RESERVAS\FrmReservas.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmReservas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SISTEMA\CONFIGURACION\FrmConfiguracion.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmConfiguracion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SISTEMA\FrmBase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SISTEMA\MENSAJES\FrmAviso.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmAviso.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SISTEMA\MENSAJES\FrmError.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmError.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SISTEMA\MENSAJES\FrmMensajeBase.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMensajeBase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SISTEMA\UTILES\FrmCopiaSeguridad.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmCopiaSeguridad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SISTEMA\VALIDACION\FrmValidarUsuario.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmValidarUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TPV\FrmAuxiliares\FrmCobrarDocu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmCobrarDocu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TPV\FrmAuxiliares\FrmTipoDocumento.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmTipoDocumento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TPV\FrmDocumento.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmDocumento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TPV\FrmDocumentos.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmDocumentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RESERVAS\FrmReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RESERVAS\FrmReserva.Designer.cs">
+      <DependentUpon>FrmReserva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RESERVAS\FrmReservas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RESERVAS\FrmReservas.Designer.cs">
+      <DependentUpon>FrmReservas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SISTEMA\CONFIGURACION\FrmConfiguracion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SISTEMA\CONFIGURACION\FrmConfiguracion.Designer.cs">
+      <DependentUpon>FrmConfiguracion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SISTEMA\FrmBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SISTEMA\FrmBase.Designer.cs">
+      <DependentUpon>FrmBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SISTEMA\MENSAJES\FrmAviso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SISTEMA\MENSAJES\FrmAviso.Designer.cs">
+      <DependentUpon>FrmAviso.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SISTEMA\MENSAJES\FrmError.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SISTEMA\MENSAJES\FrmError.Designer.cs">
+      <DependentUpon>FrmError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SISTEMA\MENSAJES\FrmMensajeBase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SISTEMA\MENSAJES\FrmMensajeBase.Designer.cs">
+      <DependentUpon>FrmMensajeBase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SISTEMA\UTILES\FrmCopiaSeguridad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SISTEMA\UTILES\FrmCopiaSeguridad.Designer.cs">
+      <DependentUpon>FrmCopiaSeguridad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SISTEMA\VALIDACION\FrmValidarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SISTEMA\VALIDACION\FrmValidarUsuario.Designer.cs">
+      <DependentUpon>FrmValidarUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TPV\FrmAuxiliares\FrmCobrarDocu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TPV\FrmAuxiliares\FrmCobrarDocu.Designer.cs">
+      <DependentUpon>FrmCobrarDocu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TPV\FrmAuxiliares\FrmTipoDocumento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TPV\FrmAuxiliares\FrmTipoDocumento.Designer.cs">
+      <DependentUpon>FrmTipoDocumento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TPV\FrmDocumento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TPV\FrmDocumento.Designer.cs">
+      <DependentUpon>FrmDocumento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TPV\FrmDocumentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TPV\FrmDocumentos.Designer.cs">
+      <DependentUpon>FrmDocumentos.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cashier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user1_earth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\businessmen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user1_back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\data_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\address_book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document_dirty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\businessman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gear_warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\disk_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CLSBASE\CLSBASE.csproj">
+      <Project>{C8ABCA30-C4AB-4317-9C7A-B047C489B6E0}</Project>
+      <Name>CLSBASE</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClsUtils\ClsUtils\ClsUtils.csproj">
+      <Project>{083C56B6-59B9-402D-BAF1-418130BFBE16}</Project>
+      <Name>ClsUtils</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\index.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\keyboard1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\check2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\message.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disk_blue1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\factory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\businessman1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\disk_blue2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer2.png" />
+    <None Include="Resources\printer.png" />
+    <None Include="Resources\data_disk.png" />
+    <Content Include="Tpv.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

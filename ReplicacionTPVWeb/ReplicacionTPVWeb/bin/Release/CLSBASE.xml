@@ -1,0 +1,283 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CLSBASE</name>
+    </assembly>
+    <members>
+        <member name="M:CLSBASE.CRM.RESERVAS.Reservas.ObtenInstancia">
+            <summary>
+            Metodo que obtiene la instancia de las Reservas (singleton)
+            </summary>
+            <returns>Reservas</returns>
+        </member>
+        <member name="M:CLSBASE.CRM.RESERVAS.Reservas.Cargar">
+            <summary>
+            Carga los datos al datatable
+            </summary>
+        </member>
+        <member name="M:CLSBASE.CRM.RESERVAS.Reservas.Nuevo">
+            <summary>
+            Crea una nueva Reseerva
+            <see cref="!:Documento"/>
+            </summary>
+            <returns>Reserva nueva</returns>
+        </member>
+        <member name="M:CLSBASE.CRM.RESERVAS.Reservas.Buscar(System.Int64)">
+            <summary>
+            Busca una reserva dada
+            <see cref="!:Documento"/>
+            </summary>
+            <param name="codigo">ID de la reserva</param>
+            <returns>Reserva encontrada o null si no encuentra nada</returns>
+        </member>
+        <member name="P:CLSBASE.CRM.RESERVAS.Reservas.Datos">
+            <summary>
+            DataTable con todas las cabeceras de reservas disponibles
+            </summary>
+        </member>
+        <member name="T:CLSBASE.CRM.DOCUMENTOS.Documentos">
+            <summary>
+            Clase que obtiene todos los documentos dados de alta en el sistema
+            <seealso cref="T:CLSBASE.CRM.DOCUMENTOS.Documento"/>
+            </summary>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.Documentos.ObtenInstancia">
+            <summary>
+            Método para obtener una instancia de la clase documentos (singleton)
+            </summary>
+            <returns>Listado de documentos</returns>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.Documentos.Cargar">
+            <summary>
+            Carga los datos de la base de datos en memoria 
+            <see cref="T:System.Data.DataTable"/>
+            </summary>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.Documentos.CargaDatosAux">
+            <summary>
+            Rellena los datos auxiliares del documento
+            </summary>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.Documentos.Guardar(MySql.Data.MySqlClient.MySqlConnection@,MySql.Data.MySqlClient.MySqlTransaction@)">
+            <summary>
+            Guarda los datos de los documentos
+            </summary>
+            <param name="cn">Conexión Activa</param>
+            <param name="tr">Transación Activa</param>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.Documentos.Guardar">
+            <summary>
+            Guarda los datos del documento en una transacion propia
+            </summary>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.Documentos.Refrescar">
+            <summary>
+            Recarga los datos,  (guarda y vuelve a cargar)
+            </summary>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.Documentos.Nuevo">
+            <summary>
+            Crea una nuevo documento
+            <see cref="T:CLSBASE.CRM.DOCUMENTOS.Documento"/>
+            </summary>
+            <returns>Documento nuevo</returns>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.Documentos.Buscar(System.Int64)">
+            <summary>
+            Busca un documento dado
+            <see cref="T:CLSBASE.CRM.DOCUMENTOS.Documento"/>
+            </summary>
+            <param name="codigo">ID del documento</param>
+            <returns>Documento encontrado o null si no encuentra nada</returns>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.Documentos.ObtenerNumeroDocumento(System.String,System.String,System.String)">
+            <summary>
+            Obtiene un numero de documento formateado
+            </summary>
+            <param name="tipo">Tipo de documento</param>
+            <param name="numero">Número del documento</param>
+            <param name="Anyo">Año de emisión del documento</param>
+            <returns></returns>
+        </member>
+        <member name="P:CLSBASE.CRM.DOCUMENTOS.Documentos.Datos">
+            <summary>
+            DataTable con todas las cabeceras de los documentos
+            </summary>
+        </member>
+        <member name="T:CLSBASE.CRM.DOCUMENTOS.Documento">
+            <summary>
+            Clase para implementar la funcionalidad de generar un documento
+            </summary>
+        </member>
+        <member name="M:CLSBASE.Elemento.ObtenIDNuevoElemento(MySql.Data.MySqlClient.MySqlConnection@,MySql.Data.MySqlClient.MySqlTransaction@)">
+            <summary>
+            Obtiene un nuevo ID de elemento, esta funcion se usa cuando se crea el elemento en cuestion
+            </summary>
+            <param name="cn"> Conexion activa</param>
+            <param name="tr">Transacion activa</param>
+            <returns>Int64 con el nuevo ID de elemento</returns>
+        </member>
+        <member name="M:CLSBASE.Elemento.ObtenOpcionesWeb(System.Int64,MySql.Data.MySqlClient.MySqlConnection@,MySql.Data.MySqlClient.MySqlTransaction@)">
+            <summary>
+            Obtiene las opciones WEB de un elemento dado
+            </summary>
+            <param name="id">ID del elemento en cuestion</param>
+            <param name="cn">Conexion activa</param>
+            <param name="tr">Transacion Activa</param>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.Documento.#ctor(System.Data.DataRow@,CLSBASE.CRM.DOCUMENTOS.Documentos)">
+            <summary>
+            Constructor del documento, al cual se le pasa el DataRow de la cabecera, y el padre <see cref="T:CLSBASE.CRM.DOCUMENTOS.Documentos"/> que ha creado dicho documento
+            </summary>
+            <param name="d">DataRow con los datos del documento</param>
+            <param name="p">Objeto documentos que ha generado este documento</param>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.Documento.#ctor">
+            <summary>
+            Constructor que crea un objeto documento vacio
+            </summary>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.Documento.Validar(System.String@)">
+            <summary>
+            Valida que el documento es correcto
+            </summary>
+            <param name="textoerr">Texto que devuelve en caso de encontrar algun error</param>
+            <returns>Si es correcto true, si es incorrecto false</returns>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.Documento.Guardar">
+            <summary>
+            Guarda un documento
+            </summary>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.Documento.CargaDatosAux(System.String)">
+            <summary>
+            Carga los datos relacionados de un documento
+            </summary>
+            <param name="dato">String que puede ser:
+                                    LINEAS -> Carga las lineas del documento
+            </param>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.Documento.GuardaDatosAux(MySql.Data.MySqlClient.MySqlConnection@,MySql.Data.MySqlClient.MySqlTransaction@)">
+            <summary>
+            Funcion que guarda los datos auxiliares del documento
+            </summary>
+            <param name="cn"></param>
+            <param name="tr"></param>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.Documento.ObtenNumeroDoc(System.String,System.Int32,MySql.Data.MySqlClient.MySqlConnection@,MySql.Data.MySqlClient.MySqlTransaction@)">
+            <summary>
+            Funcion que obtiene un número de documento (Contador)
+            </summary>
+            <param name="codtido">Tipo de documento</param>
+            <param name="anyo">Año de emisión</param>
+            <param name="cn">Conexion activa</param>
+            <param name="tr">Transacion activa</param>
+            <returns>Nº del contador</returns>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.Documento.ObtenTotalesDocumento">
+            <summary>
+            Funcion que obtiene un resumen de totales del documento
+            </summary>
+            <returns>Hashtable con:
+                PVB -> Precio total bruto (sin iva)
+                PVP -> Precio total con iva
+                PIM -> Importe total del iva
+            </returns>
+        </member>
+        <member name="P:CLSBASE.CRM.DOCUMENTOS.Documento.parent">
+            <summary>
+            Identifica al objeto Documentos que ha generado este documento
+            </summary>
+        </member>
+        <member name="P:CLSBASE.CRM.DOCUMENTOS.Documento.datos">
+            <summary>
+            DataRow con los datos de la cabecera del documento
+            </summary>
+        </member>
+        <member name="P:CLSBASE.CRM.DOCUMENTOS.Documento.lineas">
+            <summary>
+            DataTable con las lineas que componen el documento
+            </summary>
+        </member>
+        <member name="T:CLSBASE.CRM.DOCUMENTOS.TipoDocumentos">
+            <summary>
+            Clase maestra para obtener los tipos de documento
+            </summary>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.TipoDocumentos.#ctor">
+            <summary>
+            Constructor simple
+            </summary>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.TipoDocumentos.ObtenInstancia">
+            <summary>
+            Metódo estatico para obtener la instancia (singleton)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.TipoDocumentos.guardar">
+            <summary>
+            Guarda los tipos de documentos
+            </summary>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.TipoDocumentos.refrescar">
+            <summary>
+            Refresca los datos (guarda y carga)
+            </summary>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.TipoDocumentos.ObtenerTablaContadores(System.String)">
+            <summary>
+            Obtiene las tablas de contadores por tipos
+            </summary>
+            <param name="codtido"> Cod. Tipo</param>
+            <returns></returns>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.TipoDocumentos.GuardarTablaContadores(System.String,System.Data.DataTable@)">
+            <summary>
+            guarda la tabla de contadores por tipos
+            </summary>
+            <param name="codtido">Codigo Tipo</param>
+            <param name="datos">DataTable de con los contadores</param>
+        </member>
+        <member name="M:CLSBASE.CRM.DOCUMENTOS.TipoDocumentos.ObtenContador(System.String,System.Int16,MySql.Data.MySqlClient.MySqlConnection@,MySql.Data.MySqlClient.MySqlTransaction@)">
+            <summary>
+            Obtiene un contador de un tipo determinado
+            </summary>
+            <param name="codtido">Cod. Tipo</param>
+            <param name="anyo">Año emision</param>
+            <param name="cn">Conexion Activa</param>
+            <param name="tr">Transacion Activa</param>
+            <returns>Contador</returns>
+        </member>
+        <member name="P:CLSBASE.CRM.DOCUMENTOS.TipoDocumentos.Datos">
+            <summary>
+            DataTable con los tipos de documentos
+            </summary>
+        </member>
+        <member name="M:CLSBASE.CRM.RESERVAS.EstadoReservas.ObtenInstancia">
+            <summary>
+            Metódo estatico para obtener la instancia (singleton)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CLSBASE.CRM.RESERVAS.EstadoReservas.guardar">
+            <summary>
+            Guarda los tipos de documentos
+            </summary>
+        </member>
+        <member name="M:CLSBASE.CRM.RESERVAS.EstadoReservas.refrescar">
+            <summary>
+            Refresca los datos (guarda y carga)
+            </summary>
+        </member>
+        <member name="P:CLSBASE.CRM.RESERVAS.EstadoReservas.Datos">
+            <summary>
+            DataTable con los tipos de documentos
+            </summary>
+        </member>
+        <member name="M:CLSBASE.CRM.PRODUCTOS.Producto.ObtenStock">
+            Usar esta para actualizar en el acto
+            
+        </member>
+    </members>
+</doc>

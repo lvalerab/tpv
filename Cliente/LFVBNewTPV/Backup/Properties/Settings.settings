@@ -1,0 +1,69 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="LFVBNewTPV.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="CADENA_CONEXION" Type="System.String" Scope="User">
+      <Value Profile="(Default)">server=127.0.0.1;database=TPV;user=root</Value>
+    </Setting>
+    <Setting Name="PROGRAMA_TECLADO" Type="System.String" Scope="User">
+      <Value Profile="(Default)">osk.exe</Value>
+    </Setting>
+    <Setting Name="MODO_DEBUG" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="COD_IVA_DEF" Type="System.String" Scope="User">
+      <Value Profile="(Default)">R18</Value>
+    </Setting>
+    <Setting Name="ACTIVAR_BARRA_BUSQ_RAP" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="CLIENTE_DEFECTO" Type="System.Int64" Scope="User">
+      <Value Profile="(Default)">1001000000</Value>
+    </Setting>
+    <Setting Name="TPV_NUEVO_DESPUES_GUARDAR" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TICKET_IMP_DEF" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="TPV_PIST_LINEA_AUTO" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TPV_LIN_AGRUPAR_LINEAS" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TPV_TICK_IMPRCOBR" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TPV_DOC_GUARDARCOBR" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TPV_COBR_COBROSCUENTE" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="TPV_DOC_BLOQUEARANT" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TPV_DOC_GUARDASINLIQ" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TPV_PROD_PERMITIR_SIN_EXISTENCIAS" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="PROD_RUTA_IMAGENES" Type="System.String" Scope="User">
+      <Value Profile="(Default)">[APPBASE]\IMGPROD\</Value>
+    </Setting>
+    <Setting Name="TPV_TIPO_DOC_NUEVO_DEF" Type="System.String" Scope="User">
+      <Value Profile="(Default)">T</Value>
+    </Setting>
+    <Setting Name="TPV_USO_TECLAS_RAPIDAS" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="WIN7_METODO_TECLADO" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="MYSQDUMP_RUTA" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\xampp\mysql\bin\mysqldump.exe</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,3 @@
+1) La reserva solo tendrá validez de 15 días habiles, pasados los cuales, los precios descritos ya no tendran validez, siendo sustituidos por los que esten en vigor en la tienda.
+
+2) La reserva esta sujeta a disponibilidad de stock en la tienda.

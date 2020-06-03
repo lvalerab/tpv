@@ -1,0 +1,6 @@
+C:\DESARROLLO\NuevoTPV2012\Cliente\CLSBASE\bin\Release\CLSBASE.XML
+C:\DESARROLLO\NuevoTPV2012\Cliente\CLSBASE\bin\Release\CLSBASE.dll
+C:\DESARROLLO\NuevoTPV2012\Cliente\CLSBASE\bin\Release\CLSBASE.pdb
+C:\DESARROLLO\NuevoTPV2012\Cliente\CLSBASE\obj\Release\CLSBASE.csprojResolveAssemblyReference.cache
+C:\DESARROLLO\NuevoTPV2012\Cliente\CLSBASE\obj\Release\CLSBASE.dll
+C:\DESARROLLO\NuevoTPV2012\Cliente\CLSBASE\obj\Release\CLSBASE.pdb
